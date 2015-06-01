@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>kega-fusion</id>
+    <title>Kega Fusion</title>
+    <version>3.64</version>
+    <authors>Steve Snake</authors>
+    <owners>derari</owners>
+    <summary>An emulator for various Sega systems with network support.</summary>
+    <description>Fusion is a Sega SG1000, SC3000, SF7000, Master System, Game Gear, Genesis/Megadrive, SVP, Pico, SegaCD/MegaCD and 32X emulator for Win9x/ME/2000/XP/Vista/Win7.
+	
+	Please consider to donate to the development of Kega Fusion, and other new projects from Steve Snake, by donating on the [project page](http://www.carpeludum.com/kega-fusion/).
+	
+	All files will be installed to `%ChocolateyBinRoot%`.
+    </description>
+    <projectUrl>http://www.carpeludum.com/kega-fusion/</projectUrl>
+    <tags>emulator sega game-gear master-system genesis megadrive</tags>
+    <!--<copyright></copyright>
+    <licenseUrl></licenseUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://cdn.rawgit.com/derari/fusion-choco/master/Fusion.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
